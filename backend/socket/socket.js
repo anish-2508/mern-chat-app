@@ -7,7 +7,7 @@ const app= express()
 const server = http.createServer(app)
 const io = new Server(server, {
     cors : {
-        origin : ["http://localhost:4000"],
+        origin : ["https://mern-chat-app-btmy.onrender.com/"],
         methods : ["GET", "POST"]
     },
 })
